@@ -1,0 +1,2 @@
+# Incorrect useState Modification in React
+This example demonstrates a common mistake when using the `useState` hook in React. Directly modifying the state variable (e.g., `count = count + 1;`) will not trigger a re-render, as it bypasses the update mechanism provided by the hook. The correct approach involves using the setter function (`setCount`) to update the state.
